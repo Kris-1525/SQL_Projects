@@ -1,0 +1,5 @@
+INSERT INTO p1
+SELECT *
+FROM posts
+WHERE IndexId >= 1
+AND IndexId <= 808590;

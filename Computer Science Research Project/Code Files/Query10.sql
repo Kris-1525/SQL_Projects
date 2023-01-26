@@ -1,0 +1,5 @@
+INSERT INTO p5
+SELECT *
+FROM posts
+WHERE IndexId >= 2830065
+AND IndexId <= 3234358;

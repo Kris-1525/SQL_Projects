@@ -1,0 +1,5 @@
+INSERT INTO p4
+SELECT *
+FROM posts
+WHERE IndexId >= 2425770
+AND IndexId <= 2830064;
